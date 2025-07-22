@@ -107,6 +107,7 @@ def plot_symbol(path):
 # =========================
 # Streamlit UI
 # =========================
+st.set_page_config(page_title = "Lock Screen Symbol Generator")
 st.title("Lock Screen Symbol Generator")
 
 start_input = st.text_input("Start sequence (comma-separated)", value="")
